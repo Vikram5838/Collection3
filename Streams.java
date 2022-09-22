@@ -24,6 +24,8 @@ public class Streams {
 		System.out.println(a);
 		Long numC=num.stream().filter(x->x%2==0).count();
 		System.out.println(numC);
+		
+		System.out.println("Streams..................");
 	}
 
 }
